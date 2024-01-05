@@ -1,0 +1,105 @@
+ <style>
+      body {
+        background-color: rgb(35, 9, 60);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background-color: white;
+        display: flex;
+        height: 50px;
+
+        justify-content: space-evenly;
+      }
+      .leftsection {
+        color: cadetblue;
+        font-size: 25px;
+        font-style: italic;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+      }
+
+      .rightsection {
+        display: flex;
+        list-style-type: none;
+        color: antiquewhite;
+        align-items: center;
+      }
+      .rightsection ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        flex: right;
+        justify-content: space-evenly;
+      }
+      .rightsection ul li {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px 23px;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 150px;
+      }
+      main img {
+        height: 300px;
+
+        margin: 0px 1000px;
+      }
+      .box p {
+        font-size: 50px;
+
+        color: burlywood;
+        font-family: "Courier New", Courier, monospace;
+        margin-top: -300px;
+        font-size: 35px;
+        padding: 50px;
+      }
+      .box {
+        height: 500px;
+        width: 700px;
+
+        justify-content: space-evenly;
+      }
+
+      button:hover {
+        background-color: red;
+        height: 75px;
+      }
+      .box p {
+        margin-left: 250px;
+
+        height: 250px;
+        width: 300px;
+      }
+
+      main span {
+        color: rgb(224, 224, 30);
+        font-weight: 100px;
+
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      main p n {
+        font-style: oblique;
+        color: azure;
+      }
+      .rightsection ul li:hover {
+        font-size: larger;
+        color: red;
+        background-color: red;
+      }
+      footer {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
